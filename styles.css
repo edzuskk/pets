@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+}
+.virsraksts{
+    color:aqua;
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 52px;
+}
+.ziem{
+    color:white;
+    font-size: 20px;
+    align-content: center;
+    justify-items: center;
+    font-family: sans-serif;
+}
+.ievads{
+    color:white;
+    font-family: sans-serif;
+}
+.saikne{
+    display:grid;
+    color:white;
+    font-family: sans-serif;
+    font-size: 24px;
+}
+.Teksts {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    color:white;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+.veseliba{
+    font-size: 26px;
+}
+.accordion {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 25%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: black; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+  #board {
+    width: 360px;
+    height: 360px;
+    background-color: lightblue;
+    border: 10px solid #0c67ae;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 118px;
+    height: 118px;
+    border: 1px solid #0c67ae;
+}
